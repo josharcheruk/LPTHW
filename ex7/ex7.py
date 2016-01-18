@@ -1,0 +1,32 @@
+print "Mary had a little lamb."
+print "It's fleece was white as %s." % 'snow'
+print "And everywhere that Mary went."
+print "." * 10 # prints 10 fullstops
+
+end1 = "C"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
+
+# A comma at the end of a line here will tell the print to output the next printout on the same line but with a space after the last variable. 
+print end1 + end2 + end3 + end4 + end5 + end6,
+print end7 + end8 + end9 + end10 + end11 + end12
+
+# This can be done but code and comments aren't really supposed to go over 80 character width for styling reasons.
+print end1 + end2 + end3 + end4 + end5 + end6, end7 + end8 + end9 + end10 + end11 + end12
+
+# This is two separate lines
+print end1 + end2 + end3 + end4 + end5 + end6
+print end7 + end8 + end9 + end10 + end11 + end12
+
+#This is the same line but using ''.join
+print ''.join((end1,end2,end3,end4,end5,end6)),
+print ''.join((end7,end8,end9,end10,end11,end12))
