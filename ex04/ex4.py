@@ -1,6 +1,6 @@
 # Sets variable 'car's to '100'
 cars = 100
-# #Sets variable 'space_in_a_car' to '4.0' (this being a floating point number)
+# Sets variable 'space_in_a_car' to '4.0' (this being a floating point number)
 space_in_a_car = 4.0
 # Sets variable 'drivers' to '30'
 drivers = 30
