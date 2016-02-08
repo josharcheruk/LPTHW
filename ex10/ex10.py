@@ -15,8 +15,18 @@ print persian_cat
 print backslash_cat
 print fat_cat
 
-# This is an annoying spinning start thing that never quits
-while True:
-    for i in ["/","-","|","\\","|"]:
-        print "%s\r" % i,
+# This is an annoying spinning star thing that never quits
+#while True:
+#    for i in ["/","-","|","\\","|"]:
+#        print "%s\r" % i,
 
+# New code with format strings and escape characters
+
+escape = '\nAh! \nhow \nmany \nnew \nlines \nin \nthis \nlist: %s'
+
+print escape % ('\n\tLoads!\n\tAnd some more')
+
+# Study drill code with double/single quotes and %s or %r
+
+print 'Didn\'t you see %r, that\'s %r ' % ("Michael\'s tops", "crazy")
+print 'Didn\'t you see %s, that\'s %s ' % ("Michael\'s tops", "crazy")
