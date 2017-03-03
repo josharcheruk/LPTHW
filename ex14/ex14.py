@@ -1,11 +1,16 @@
 from sys import argv
-
+# Add the 'title' argument to argv
 script, user_name, title = argv
 # This make a variable called 'prompt' which we set to what we want. Then, when
 # inside the raw_input() function, we insert the variable to output whatever 
 # prompt is set to. So the prompt will be >  with a space. You can shange all 
 # prompts in one place using this method. 
+
+# Add couple extra right angle brackets to prompt
+
 prompt = '>>> '
+
+# Add extra agrv variable to various areas (for study drills)
 
 print "Hi %s (%s), I'm the %s script." % (user_name, title, script)
 print "I'd like to ask you a few questions."
