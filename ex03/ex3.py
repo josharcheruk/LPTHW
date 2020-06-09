@@ -3,7 +3,7 @@ print "I will now count my chickens:"
 print "Hens", 25 + 30 / 6
 
 # % and * have identical priority so do from left to right. - is lower priority so...
-# 3 * 25 = 75 >>> 75 % 4 = 3 >>> 100 - 3 = 7
+# 3 * 25 = 75 >>> 75 % 4 = 3 >>> 100 - 3 = 97
 print "Roosters", 100 - 25 * 3 % 4
 
 print "I will now count the eggs:"
